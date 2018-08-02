@@ -1,0 +1,5 @@
+$file:111.mplt
+begin_plotmesh
+plot_mesh mesh_infile=111.msh &&
+  plot_device=postscript                                                          
+end_plotmesh

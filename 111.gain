@@ -1,0 +1,10 @@
+$file:type2_pd.gain
+begin_gain
+
+plot_data plot_device=postscript
+temperature temp=  0.3000E+03
+include file=111.mater
+band_distance conc=1.e15 data_point=199 use_sheet_density=yes
+
+end_gain
+

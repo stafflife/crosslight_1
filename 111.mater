@@ -1,0 +1,7 @@
+load_macro name=gaassb mater=   1 &&
+  var_symbol1=x  var1=  0.2400E+00
+get_active_layer name=cx-GaAsSb mater=   1 &&
+  var_symbol1=xw  var1=  0.2400E+00
+active_reg mater=   1 &&
+  thickness=  0.400000000000E-002
+$

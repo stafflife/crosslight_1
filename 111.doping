@@ -1,0 +1,5 @@
+$x_range=  0.000000000000E+000  0.100000000000E+001
+$y_range=  0.000000000000E+000  0.400000000000E-002
+$ Wave boundary is used only when optical modes are solved
+wave_boundary point_ll=[  0.000000000000E+000  0.000000000000E+000] &&
+  point_ur=[  0.100000000000E+001  0.400000000000E-002]

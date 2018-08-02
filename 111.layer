@@ -1,0 +1,18 @@
+begin_layer
+$
+independent_mqw
+rotation angle=0.00
+column  column_num=1  w=1.  mesh_num=2  r=1.
+$
+start_loop symbol=%i value_from=1 value_to=1
+$start_same_complex  tag=10wells
+$ bar1
+layer_mater macro_name=gaassb column_num=1 var_symbol1=x var1=0.24 &&
+   active_macro=cx-GaAsSb avar_symbol1=xw avar1=0.24
+layer d=0.004 n=5 r=1.
+$ well1
+
+
+
+end_loop
+end_layer
